@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    font: normal 16px arial;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.abadu {
+    color: aqua;
+    text-align: center;
+}

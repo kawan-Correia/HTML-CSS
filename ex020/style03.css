@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+    /*
+         #  = id
+         .  = class
+         :  = pseudo-class
+         :: = pseudo-element
+         > = clildren
+    */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+.especial{
+    background-color: rgb(228, 111, 111);
+    
+}
+
+.especial::before{
+    content: "↦";
+}
+
+.especial::after{
+    content: "↤";
+}
