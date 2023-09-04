@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/wallpaper001.jpg);
+}
+
+.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightslategray;
+    width: 300px;
+    height: 300px;
+}
+
+#q1 {
+    background-color: aquamarine;
+}
+
+#q2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+#q3 {
+    background-image: url(imagens/pattern003.png);
+}
+
+#q1:hover {
+    background-image: url(imagens/pattern001.png);
+}
+
+#q2:hover {
+    background-image: url(imagens/pattern002.png);
+}
+
+#q3:hover {
+    background-image: url(imagens/pattern004.png);
+}
