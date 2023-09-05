@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+header  {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    height: 225px;
+}
