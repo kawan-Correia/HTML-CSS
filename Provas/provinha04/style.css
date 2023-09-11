@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
+:root {
+    --cor01: antiquewhite;
+    --cor02: black;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte3: 'Passion One', cursive;
+    --fonte4: 'Sriracha', cursive;
+}
+
 * {
     margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header  {
@@ -9,4 +23,70 @@ header  {
     color: antiquewhite;
     text-align: center;
     height: 225px;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 45pt;
+    font-weight: bold;
+    font-family: var(--fonte3);
+}
+
+p a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.para {
+    font-family: var(--fonte4);
+    font-weight: bold;
+    margin: 75px 0 0 25px;
+    font-size: 18pt;
+    line-height: 2.5em;
+    margin-bottom: 25px;
+}
+
+.pimg {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+.tex { 
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 400px;
+    color: var(--cor01);
+    font-family: var(--fonte4);
+    font-size: 20pt;
+    text-shadow: 1px 1px 0px black;
+    line-height: 2.5em;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 15px black;
+    
+}
+.simg {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    margin-top: 50px;
 }
