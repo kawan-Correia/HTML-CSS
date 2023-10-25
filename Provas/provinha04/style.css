@@ -52,9 +52,9 @@ a:hover {
 
 .pimg {
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
+    background-position: right center; 
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 650px;
 }
@@ -76,9 +76,10 @@ a:hover {
 }
 .simg {
     background-image: url(imagens/background002.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
     height: 650px;
 }
 
